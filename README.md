@@ -26,6 +26,9 @@ Other Tools: Docker, CI/CD pipelines, AWS (optional)
 Contact:
 
 For any questions or feedback, please contact:
+
 Project Maintainer: Aryan Gupta
+
 Email: [aryangupta159119@gmail.com]
+
 GitHub: aryangupttaa
