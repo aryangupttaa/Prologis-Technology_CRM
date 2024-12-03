@@ -1,4 +1,4 @@
-# SEawave-Logistics_CRM
+# Seawave-Logistics_CRM
 A robust web platform designed to streamline and automate daily logistics operations. It offers customizable administrative settings, role-based access control, automated deadline calculations, and an intuitive user interface. Real-time dashboards and notifications ensure efficient workflow management.
 
 Features
