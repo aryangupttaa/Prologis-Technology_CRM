@@ -1,0 +1,814 @@
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.button-div{
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    margin-left: 20px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+.container-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: -10px;
+}
+
+.delete-text-color{
+    text-decoration: underline;
+    color: rgb(217, 32, 32);
+}
+
+.container-div-general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* width: 100%; */
+}
+
+.update-button{
+    margin-left: 30px;
+}
+
+.col-form-label{
+    margin-left: 20px;
+}
+.dropdown-button{
+    margin-left: -10px;
+}
+.search-button, .search-button1{
+    margin-right: 50px;
+}
+.datepicker{
+    margin-left: -200px;
+}
+.text-field{
+    width: 95%;
+    padding: 8px;
+    border-radius: 8px;
+    margin-left: 30px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.text-field-1{
+    width: 90%;
+    /* padding: 3px; */
+    margin-bottom: 6px;
+    /* border-radius: 8px; */
+    margin-left: 30px;
+    /* -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px; */
+}
+.all-buttons{
+    display: flex;
+    flex-direction: row;
+
+}
+.text-field-2{
+    width:100%
+}
+
+
+
+/* Registration */
+
+.new-regis-button{
+    background-color: rgb(38, 172, 38);
+    padding: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/* Import Create Job */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 5px;
+    row-gap: 10px;
+}
+
+.text-field-3{
+    margin-right: 2%;
+    font-size: small;
+}
+.text-field-4{
+    font-size: small;
+}
+.dropdown-btn{
+    font-size: small;
+    padding: 5px;
+}
+.nav-link-text{
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+
+
+/* Import General */
+
+/* .general-grid{
+    display: grid;
+    grid-template-columns: auto;
+    font-size: medium;
+} */
+
+.impgen-text-field-1{
+    margin-bottom: 2%;
+}
+
+.impgen-text-dropdown{
+    width: 100%;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.right-div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* O2D */
+.left-div-table{
+    font-size: small;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.o2d-field-4{
+    padding: 5px;
+    border-color: black;
+}
+
+.o2d-field-5{
+    width: 100px;
+    padding: 5px;
+    border-color: black;
+}
+
+.date-field{
+    width: auto;
+}
+
+.remarks-field{
+    width: 100%;
+}
+
+.impcollection-search-button{
+    padding: auto;
+}
+
+.dropdown-btn-branch{
+    width: 100%;
+}
+
+/* Import */
+
+.grid-container-import{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.dropdown-btn{
+    background: transparent;
+    border: 1px solid black;
+}
+
+.text-field-4{
+    margin-left: 2%;
+}
+
+/* IMPORT ACCESS */
+/* .imp-access-label{
+   
+} */
+
+/* .first-row{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    column-gap: 10px;
+    margin-top: 2%;
+}
+.second-row{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    column-gap: 10px;
+    margin-top: 2%;
+}
+.third-row{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    column-gap: 10px;
+    margin-top: 2%;
+} */
+
+.custom-house-dropdown{
+    height: 120px;
+}
+
+.row-font{
+    font-size: small;
+}
+/* .all-buttons-user-import{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clear-button{
+    margin-left: 30px;
+} */
+
+.date-filters{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-div-report{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.O2D-values{
+    padding: 0px;
+}
+
+.left-div-report{
+    width: 50%;
+    position: relative;
+}
+
+.main-div-report{
+    border-right: 1px solid black;
+
+}
+
+.right-div-report{
+    width: 30%;
+    position: absolute;
+    float: right;
+    margin-top: -350px;
+    margin-left: 650px;
+}
+
+.date-filters-report{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.date-filters-report .start-date-filters-report, .date-filters-report .end-date-filters-report, .date-filters-report .start-date-filters-report:active, .date-filters-report .end-date-filters-report:active, .date-filters-report .start-date-filters-report:focus, .date-filters-report .end-date-filters-report:focus{
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 1px solid black;
+    margin-right: 20px;
+    height: 30px;
+}
+.filter-button, .clear-button{
+    margin-top: -45px;
+    margin-right: 20px;
+    border-radius: 20px;;
+}
+.selected-branch {
+    color: blue; /* Change the color to your desired color */
+    font-weight: bold; /* Optionally, make the text bold or apply other styles */
+    /* cursor: default; */
+}
+.allbranches{
+    cursor: default;
+}
+
+/* .text-field-5{
+    font-size: 10px;
+} */
+
+
+.role-newuser{
+    width: 100%;
+}
+.grid-KYC{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-bottom: 20px;
+}
+
+.grid-kyc{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.text-field-UL-1{
+    margin-left: 15px;
+    margin-bottom: 2%;
+}
+.text-field-UL-2{
+    margin-left: 60px;
+    margin-bottom: 2%;
+}
+.text-field-UL-3{
+    margin-left: 65px;
+    margin-bottom: 2%;
+}
+.text-field-UL-4{
+    margin-left: 20px;
+    margin-bottom: 2%;
+}
+.text-field-UL-5{
+    margin-left: 38px;
+    margin-bottom: 2%;
+}
+.text-field-UL-6{
+    margin-left: 50px;
+    width: 56%;
+}
+.text-field-UL-7{
+    margin-left: 30px;
+    width: 56%;
+    margin-bottom: 2%;
+}
+.text-field-UL-8{
+    margin-left: 20px;
+    margin-bottom: 2%;
+}
+.text-field-UL-9{
+    margin-left: 40px;
+    margin-bottom: 2%;
+}
+.userlist-button{
+    margin-bottom: 1%;
+}
+
+
+
+
+.dropdown-menu-notifications{
+    width: 450px;
+}
+.table-responsive {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.notif-header1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notifrow{
+    overflow-x: hidden;
+    cursor: default;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+}
+.notif{
+    position: relative;
+    width: fit-content;
+    /* height: fit-content; */
+    margin-left: 35px;
+    margin-right: 0px;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.button-mark-as-read{
+
+    width: 35px;
+    height: 35px;
+    font-size: small;
+    margin-left: 10px;
+    
+    background-color: transparent;
+    /* background-image: url(../assets/images/double-tick-indicator.png);
+    background-repeat: no-repeat;
+    background-size: 10%; */
+    /* background-color:none; */
+    /* padding: 15px; */
+    border-radius: 50%;
+    color: black;
+    border: 1px solid black;
+}
+.button-mark-as-read .icon-envelope-open{
+    width: 25px;
+    height: 25px;
+    margin-left: -5px;
+    margin-top: -2px;
+    /* margin-top: -100px; */
+    /* margin-top: -100px; */
+
+}
+
+
+.readallbtn{
+    width: 100px;
+    margin-left: 30px;
+    background-color: blueviolet;
+}
+
+
+.notificationcount{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+.read-row{
+    background-color: aqua;
+}
+.unread-row{
+    background-color: brown;
+}
+
+
+
+
+
+.containerarrange {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.box:hover {
+    background-color: #e0e0e0;
+}
+
+.table-container {
+    width: 100%;
+}
+
+.table-container th,
+.table-container td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.table-container th {
+    background-color: #f0f0f0;
+}
+
+.table-container td:last-child {
+    text-align: center;
+}
+
+
+/* Approvers Buttons & Tables Styles - ADMIN */
+
+.edit-button-approver-1{
+    margin-right: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    cursor: pointer;
+}
+
+.addmembers-button-approver-1{
+    margin-right: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    cursor: pointer;
+}
+
+.delete-button-approver-1{
+    padding-top: 0;
+    padding-bottom: 0;
+    cursor: pointer;
+}
+
+.approver-table{
+    margin-top: -10px;
+}
+
+.approver-inputfield{
+    width: 100%;
+}
+
+.approver-inputfield-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.memberapprover{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: -5px;
+}
+.memberapprover-howmanyapprover{
+    /* margin-left: 40px; */
+    width: fit-content;
+
+}
+.memberapprover-totalapprover{
+    width: fit-content;
+}
+.memberapprover-submit{
+    width: fit-content;
+    height: fit-content;
+}
+.memberapprover-addbutton{
+    margin-left: -10px;
+}
+.memberapprover-table{
+    margin-top: -10px;
+}
+.addapproverlist-memberapprover{
+    width: 100%;
+}
+.addapproverlist-memberapprover-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Branch List */
+
+.branchlist-table{
+    margin-top: -10px;
+}
+
+.branchlist-addbutton{
+    cursor: pointer;
+}
+.branchlist-inputfield-1{
+    width: 70%;
+    margin-left: 25px;
+}
+.branchlist-inputfield-2{
+    width: 65%;
+    margin-left: 28px;
+}
+.branchlist-inputfield-3{
+    width: 60%;
+    margin-left: 20px;
+}
+.branchlist-inputfield-4{
+    width: 70%;
+    margin-left: 10px;
+    height: 100px;
+}
+.branchlist-inputfield-5{
+    width: 80%;
+    margin-left: 18px;
+}
+.branchlist-inputfield-6{
+    width: 80%;
+    margin-left: 23px;
+}
+
+/* Workflow, Line of Business, Milestone, JobValue */
+.lob-addlob-dropdown{
+    width: 100%;
+}
+.lob-addlob-dropdown-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lob-table{
+    margin-top: -15px;
+}
+.addbutton-lob{
+    margin-left: -20px;
+}
+.editbutton-lob{
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.milestone-worflow-addbutton{
+    margin-left: -20px;
+}
+.milestone-workflow-table{
+    margin-top: -15px;
+}
+.editbutton-milestone-workflow{
+    margin-right: 30px;
+    cursor: pointer;
+}
+.deletebutton-milestone-workflow{
+    cursor: pointer;
+}
+
+.worflow-addbutton{
+    margin-left: -10px;
+}
+.worflow-table{
+    margin-top: -15px;
+}
+.editbutton-workflow{
+    margin-right: 25px;
+}
+.addwf-dropdownbutton{
+    width: 100%;
+}
+.wf-selectbranch-dropdown{
+    width: 100%;
+}
+.wf-menu-dropdown{
+    width: 100%;
+}
+.wf-item-dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.setworkflow-input-org{
+    width: fit-content;
+}
+.setworkflow-table{
+    margin-top: -10px;
+}
+.addworkflow-checkboxbutton{
+    margin-top: 20px;
+}
+.addworflow-labelfield{
+    margin-left: 50px;
+}
+.addworkflow-day{
+    margin-left: 10px;
+}
+.addworkflow-deletebutton{
+    margin-left: 10px;
+}
+.addworkflow-dropdown-access{
+    margin-top: 10px;
+}
+
+
+/* Import Approval */
+
+.impapprovalmodal{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.impapprovalmodal input{
+    width: fit-content;
+}
+
+.impapprovalmodal-1{
+
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.impapprovalmodal-1 input{
+    margin-left: 20px;
+}
+
+/* Organization Approval */
+
+.orgapprovalmodal{
+    font-size: medium;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.orgapprovalmodal input{
+    margin-left: 20px;
+}
+
+.modaltitleorgapproval{
+    margin-bottom: 5px;
+}
+
+.branchnameorgapprovalmodal{
+    margin-left: 20px;
+}
+
+.addressinputorgapprovalmodal{
+    width: 80%;
+    margin-left: 10px;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+.addresslabeltorgapprovalmodal{
+    font-weight: 500;
+}
+
+.orgapprovalmodal-1{
+    font-size: medium;
+}
+
+.addresslabelorgapprovalmodal{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.addresslabelorgapprovalmodal-1{
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.addresslabelorgapprovalmodal-2{
+    margin-left: 10px;
+}
+
+.registrationorgarpproval{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    font-size: medium;
+
+}
+
+.registrationorgarpproval-1{
+    margin-left: 10px;
+    font-size: medium;
+}
+
+.accountorgapproval{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+.contactorgapprovalmodal{
+    margin-right: 10px;
+}
+.contactorgapprovalmodal-1{
+    margin-left: 10px;
+}
+
+/* User List */
+.userlist-cnav-cusros{
+    cursor: pointer;
+}
+
+.branch-container {
+    text-align: center; /* Centers content horizontally */
+  }
+  
+  .branch-items {
+    display: flex; /* Ensures items are displayed side by side */
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: center; /* Centers items horizontally within the container */
+  }
+  
+  .branch-item {
+    padding: 5px 10px; /* Adds padding to each item */
+  }
+  
